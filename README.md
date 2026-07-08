@@ -1,364 +1,330 @@
-<div align="center">
-
 # 🌿 Elaris
 
-### *Discover. Explore. Share. Inspire.*
+> **Explore. Wander. Remember.**
 
-*A modern platform where nature enthusiasts discover breathtaking destinations, document unforgettable adventures, and inspire others to explore the outdoors responsibly.*
+Elaris is a full-stack, production-inspired platform where nature enthusiasts can discover breathtaking destinations, document their outdoor experiences, and inspire others to explore the natural world responsibly.
 
-![License](https://img.shields.io/badge/license-MIT-green)
-![Status](https://img.shields.io/badge/status-Under%20Development-blue)
-![Built With](https://img.shields.io/badge/Built%20With-React%20%7C%20Node.js%20%7C%20PostgreSQL-success)
+Unlike traditional social media platforms that focus primarily on people, Elaris puts **nature, places, and experiences** at the center of every interaction.
 
 ---
 
-*"The world is full of beautiful places waiting to be discovered."*
+# 📸 Preview
 
-</div>
+> *(Replace the image below after you take a screenshot of your homepage.)*
 
----
-
-# 📖 About
-
-Elaris is a production-inspired full-stack web application designed for people who love exploring nature.
-
-Unlike traditional social media platforms that revolve around influencers and entertainment, **Elaris places destinations, experiences, and exploration at the heart of every interaction.**
-
-Whether it's a hidden waterfall, a mountain sunrise, a peaceful forest trail, or a beautiful camping spot, Elaris helps people discover places worth experiencing while encouraging responsible and sustainable travel.
+<p align="center">
+  <img src="./docs/images/homepage.png" alt="Elaris Homepage" width="100%">
+</p>
 
 ---
 
-# 🎯 Vision
+# 🌍 Vision
 
-> **Build the world's most engaging platform for discovering, documenting, and sharing natural places and outdoor experiences.**
+Elaris aims to become a community-driven platform for discovering and sharing natural destinations such as:
 
-Our mission is simple:
+- 🏔 Mountains
+- 🌲 Forests
+- 🌊 Lakes
+- 💧 Waterfalls
+- 🏕 Camping Sites
+- 🦌 Wildlife
+- 🌅 Sunrise & Sunset Spots
+- 🥾 Hiking Trails
+- 🏖 Beaches
+- 🏞 Scenic Viewpoints
 
-- 🌍 Help people discover beautiful places
-- 📍 Make trip planning easier
-- 📸 Encourage authentic storytelling
-- 🤝 Build a community around exploration
-- 🌱 Promote sustainable tourism
+The goal is to create a platform where people can
+
+- Discover beautiful places
+- Share authentic travel experiences
+- Preserve memories
+- Inspire adventures
+- Promote responsible tourism
 
 ---
 
-# ❓ Why Elaris?
+# ❓ Problem Statement
 
-Existing social platforms are excellent for sharing moments, but they aren't designed for discovering destinations.
+Current social media platforms are designed to share photos and moments, but they are not built specifically for discovering and documenting natural destinations.
 
 People often ask:
 
 - Where exactly is this place?
-- Is it beginner friendly?
-- When is the best season to visit?
-- Is the trail safe?
-- How crowded is it?
+- Is it worth visiting?
+- What is the best season?
+- Is the trail beginner friendly?
 - What should I carry?
+- Are there any safety concerns?
 
-Elaris combines social interaction with practical travel knowledge to answer these questions.
-
----
-
-# ✨ MVP Features
-
-## 👤 User Management
-
-- User Registration
-- Secure Login
-- JWT Authentication
-- User Profiles
-- Profile Picture
-- Edit Profile
+Elaris bridges this gap by combining social interaction with practical travel information.
 
 ---
 
-## 🌄 Nature Posts
+# 🚀 Current Progress
 
-Users can create posts containing:
+## ✅ Frontend
 
-- Title
-- Description
-- Images
-- Location
-- Category
-- Date Visited
+- React + Vite
+- Tailwind CSS
+- React Router
 
----
+## ✅ Pages
 
-## ❤️ Community
+- Home
+- Login
+- Register
+- Profile
+- Create Post
 
-- Like Posts
-- Comment on Posts
-- User Profiles
-- Home Feed
+## ✅ Components
 
----
-
-## 🔍 Search
-
-Search by:
-
-- Locations
+- Navbar
+- Hero Section
+- Search Bar
 - Categories
-- Users
+- Category Card
+- Featured Places
+- Place Card
+- Why Elaris
+- Footer
+
+## ✅ React Concepts Learned
+
+- Component-based architecture
+- JSX
+- Props
+- Parent → Child communication
+- Reusable components
+- Project organization
+- React Router
 
 ---
 
-# 🌿 Categories
+# 🗺 Roadmap
 
-Examples include:
+## Version 0.1 (Current)
 
-- 🏔 Mountains
-- 🌊 Waterfalls
-- 🌲 Forests
-- 🏕 Camping
-- 🥾 Hiking
-- 🌅 Sunrise
-- 🌇 Sunset
-- 🦜 Wildlife
-- 🏞 Rivers
-- 🌸 Flowers
-- 🏖 Beaches
-- 🌋 Landscapes
+- [x] Project setup
+- [x] React Router
+- [x] Tailwind CSS
+- [x] Homepage UI
+- [x] Reusable Components
+- [x] Props
 
 ---
 
-# 🚀 Future Roadmap
+## Version 0.2
 
-## Version 1
+- [ ] Arrays & `.map()`
+- [ ] useState
+- [ ] Search UI
+- [ ] Responsive Design
+- [ ] Better Hero Section
 
-- Authentication
-- User Profiles
-- Posts
-- Likes
-- Comments
-- Search
+---
 
-## Version 2
+## Version 0.3
 
-- Saved Posts
+- [ ] Express Backend
+- [ ] REST APIs
+- [ ] PostgreSQL
+- [ ] Prisma ORM
+
+---
+
+## Version 0.4
+
+- [ ] JWT Authentication
+- [ ] User Profiles
+- [ ] Protected Routes
+
+---
+
+## Version 0.5
+
+- [ ] Create Posts
+- [ ] Image Upload
+- [ ] Likes
+- [ ] Comments
+
+---
+
+## Future
+
+- Save Posts
 - Collections
-- Explore Page
-
-## Version 3
-
-- Interactive Maps
-- Nearby Discoveries
-
-## Version 4
-
-- Weather Integration
-
-## Version 5
-
+- Maps Integration
+- Weather API
 - Notifications
-
-## Version 6
-
-- AI Trip Planner
-
-## Version 7
-
-- Personalized Recommendations
-
-## Version 8
-
-- Redis Cache
-
-## Version 9
-
-- Background Jobs & Queues
-
-## Version 10
-
-- Monitoring & Logging
-
-## Version 11
-
+- AI Recommendations
+- Trip Planner
+- CDN
+- Redis
 - Docker
-
-## Version 12
-
-- AWS Deployment
-
-## Version 13
-
-- Load Balancer
-
-## Version 14
-
+- AWS
+- Kubernetes
 - Microservices
 
 ---
 
-# 🏗 System Architecture
-
-```text
-                User
-                  │
-                  ▼
-         React Frontend (Vite)
-                  │
-          REST API (HTTPS)
-                  │
-                  ▼
-      Node.js + Express Backend
-                  │
-                  ▼
-      PostgreSQL + Prisma ORM
-```
-
-The frontend never communicates directly with the database.
-
-Every request flows through the backend where business logic, authentication, validation, and security are handled.
-
----
-
-# 🛠 Tech Stack
-
-## Frontend
-
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- React Router
-- TanStack Query
-
-## Backend
-
-- Node.js
-- Express.js
-- TypeScript
-
-## Database
-
-- PostgreSQL
-- Prisma ORM
-
-## Authentication
-
-- JWT
-
-## Image Storage
-
-- Cloudinary (MVP)
-
-Future:
-
-- AWS S3
-
-## API Testing
-
-- Postman
-
-## Version Control
-
-- Git
-- GitHub
-
----
-
-# 📂 Project Structure
+# 🏗 Project Structure
 
 ```text
 Elaris/
 
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
+├── client/
 │
-├── backend/
+│   ├── public/
+│   │
 │   ├── src/
-│   ├── prisma/
+│   │   │
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │     ├── Navbar.jsx
+│   │   │     ├── Hero.jsx
+│   │   │     ├── SearchBar.jsx
+│   │   │     ├── Categories.jsx
+│   │   │     ├── CategoryCard.jsx
+│   │   │     ├── FeaturedPlaces.jsx
+│   │   │     ├── PlaceCard.jsx
+│   │   │     ├── WhyElaris.jsx
+│   │   │     └── Footer.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │     ├── Home.jsx
+│   │   │     ├── Login.jsx
+│   │   │     ├── Register.jsx
+│   │   │     ├── Profile.jsx
+│   │   │     └── CreatePost.jsx
+│   │   │
+│   │   ├── hooks/
+│   │   ├── services/
+│   │   ├── context/
+│   │   ├── utils/
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   │
 │   ├── package.json
-│   └── tsconfig.json
+│   └── vite.config.js
+│
+├── server/
+│   └── src/
 │
 ├── docs/
+│   └── images/
+│       └── homepage.png
 │
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-# 📚 Learning Goals
+# ⚙ Tech Stack
 
-This project is being developed to understand real-world software engineering concepts such as:
+## Frontend
 
-- Full Stack Development
-- REST APIs
+- React
+- Vite
+- Tailwind CSS
+- React Router
+
+## Backend *(Upcoming)*
+
+- Node.js
+- Express.js
+
+## Database *(Upcoming)*
+
+- PostgreSQL
+- Prisma ORM
+
+## Authentication *(Upcoming)*
+
+- JWT
+- bcrypt
+
+## Image Storage *(Upcoming)*
+
+- Cloudinary
+
+## Deployment *(Upcoming)*
+
+- Docker
+- AWS
+- Nginx
+- Kubernetes
+
+---
+
+# 📚 Learning Journey
+
+Elaris is intentionally being developed incrementally.
+
+Instead of introducing every technology from the beginning, each tool is added only when it solves a real engineering problem.
+
+Current learning path:
+
+- ✅ React Components
+- ✅ Routing
+- ✅ Tailwind CSS
+- ✅ Props
+- 🔄 Arrays & `.map()`
+- ⏳ useState
+- ⏳ Forms
+- ⏳ Backend APIs
+- ⏳ Authentication
+- ⏳ Database Design
+- ⏳ Deployment
+- ⏳ System Design
+
+---
+
+# 🎯 Development Philosophy
+
+> **Build the simplest solution that works today. Introduce complexity only when there is a real engineering need.**
+
+This project focuses on understanding **why** technologies are used rather than simply adding them because they are popular.
+
+---
+
+# 🌱 Long-Term Goal
+
+Elaris is more than a portfolio project.
+
+It is a long-term software engineering journey that will evolve from a simple React application into a production-inspired full-stack platform demonstrating:
+
+- Clean Architecture
+- Scalable Design
 - Authentication
 - Database Design
-- System Design
-- Clean Architecture
-- Caching
-- Message Queues
-- Cloud Computing
+- REST APIs
+- Cloud Deployment
+- DevOps
 - CI/CD
-- Docker
-- Kubernetes
-- Monitoring
-- Scalability
-
-Each technology will only be introduced when it solves an actual engineering problem.
-
----
-
-# 💡 Engineering Philosophy
-
-Elaris follows one simple principle:
-
-> **Build the simplest solution that works today. Add complexity only when real requirements demand it.**
-
-Every architectural decision should have a purpose.
-
-No unnecessary technologies.
-
-No over-engineering.
-
-Only meaningful improvements.
-
----
-
-# 🌍 Long-Term Goal
-
-Elaris is not intended to be just another portfolio project.
-
-It is a long-term engineering journey that gradually evolves from a simple CRUD application into a production-inspired platform demonstrating:
-
-- Product Thinking
-- Software Engineering Principles
-- Full Stack Development
-- Scalable System Design
-- Clean Architecture
-- Modern Development Practices
+- Distributed Systems
 
 ---
 
 # 🤝 Contributing
 
-Contributions, ideas, and feedback are always welcome.
-
-If you'd like to contribute:
+Suggestions, improvements, and ideas are always welcome.
 
 1. Fork the repository
-2. Create a new feature branch
+2. Create a feature branch
 3. Commit your changes
 4. Open a Pull Request
 
 ---
 
-# 📜 License
+# 📄 License
 
-Licensed under the MIT License.
+This project is licensed under the MIT License.
 
 ---
 
-<div align="center">
+# 💚 Elaris
 
-## 🌿 Explore Nature. Share Experiences. Inspire Adventures.
-
-**Made with ❤️ to encourage people to step outside and discover the beauty of the natural world.**
-
-</div>
+> **Explore. Wander. Remember.**
