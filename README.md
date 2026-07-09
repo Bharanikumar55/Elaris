@@ -1,256 +1,81 @@
 # 🌿 Elaris
 
-> **Explore. Wander. Remember.**
+> **Discover Hidden Places. Create Lasting Memories.**
 
-Elaris is a full-stack, production-inspired platform where nature enthusiasts can discover breathtaking destinations, document their outdoor experiences, and inspire others to explore the natural world responsibly.
+Elaris is a production-inspired full-stack web application built as a long-term software engineering journey.
 
-Unlike traditional social media platforms that focus primarily on people, Elaris puts **nature, places, and experiences** at the center of every interaction.
-
----
-
-# 📸 Preview
-
-> *(Replace the image below after you take a screenshot of your homepage.)*
-
-<p align="center">
-  <img src="./docs/images/homepage.png" alt="Elaris Homepage" width="100%">
-</p>
+Unlike traditional social media platforms that focus on people, Elaris is designed around **nature, exploration, travel experiences, and meaningful memories**. Users can discover breathtaking destinations, share adventures, preserve moments, and inspire others to explore responsibly.
 
 ---
 
-# 🌍 Vision
+# 📖 Vision
 
-Elaris aims to become a community-driven platform for discovering and sharing natural destinations such as:
+Modern social media helps people share photos, but it rarely helps users discover authentic natural destinations or plan meaningful outdoor experiences.
 
-- 🏔 Mountains
-- 🌲 Forests
-- 🌊 Lakes
-- 💧 Waterfalls
-- 🏕 Camping Sites
-- 🦌 Wildlife
-- 🌅 Sunrise & Sunset Spots
-- 🥾 Hiking Trails
-- 🏖 Beaches
-- 🏞 Scenic Viewpoints
+Elaris aims to become a platform where nature lovers can:
 
-The goal is to create a platform where people can
+- 🌿 Discover hidden natural places
+- 📸 Share authentic travel experiences
+- 🧭 Explore mountains, forests, lakes, beaches and trails
+- 🌎 Learn from fellow explorers
+- 🌱 Encourage sustainable tourism
+- ❤️ Preserve memorable journeys
 
-- Discover beautiful places
-- Share authentic travel experiences
-- Preserve memories
-- Inspire adventures
-- Promote responsible tourism
+Rather than focusing on influencers, Elaris focuses on **places and experiences**.
 
 ---
 
-# ❓ Problem Statement
+# ✨ Current Progress
 
-Current social media platforms are designed to share photos and moments, but they are not built specifically for discovering and documenting natural destinations.
+## ✅ Version
 
-People often ask:
+Current Development Stage
 
-- Where exactly is this place?
-- Is it worth visiting?
-- What is the best season?
-- Is the trail beginner friendly?
-- What should I carry?
-- Are there any safety concerns?
-
-Elaris bridges this gap by combining social interaction with practical travel information.
-
----
-
-# 🚀 Current Progress
-
-## ✅ Frontend
-
-- React + Vite
-- Tailwind CSS
-- React Router
-
-## ✅ Pages
-
-- Home
-- Login
-- Register
-- Profile
-- Create Post
-
-## ✅ Components
-
-- Navbar
-- Hero Section
-- Search Bar
-- Categories
-- Category Card
-- Featured Places
-- Place Card
-- Why Elaris
-- Footer
-
-## ✅ React Concepts Learned
-
-- Component-based architecture
-- JSX
-- Props
-- Parent → Child communication
-- Reusable components
-- Project organization
-- React Router
-
----
-
-# 🗺 Roadmap
-
-## Version 0.1 (Current)
-
-- [x] Project setup
-- [x] React Router
-- [x] Tailwind CSS
-- [x] Homepage UI
-- [x] Reusable Components
-- [x] Props
-
----
-
-## Version 0.2
-
-- [ ] Arrays & `.map()`
-- [ ] useState
-- [ ] Search UI
-- [ ] Responsive Design
-- [ ] Better Hero Section
-
----
-
-## Version 0.3
-
-- [ ] Express Backend
-- [ ] REST APIs
-- [ ] PostgreSQL
-- [ ] Prisma ORM
-
----
-
-## Version 0.4
-
-- [ ] JWT Authentication
-- [ ] User Profiles
-- [ ] Protected Routes
-
----
-
-## Version 0.5
-
-- [ ] Create Posts
-- [ ] Image Upload
-- [ ] Likes
-- [ ] Comments
-
----
-
-## Future
-
-- Save Posts
-- Collections
-- Maps Integration
-- Weather API
-- Notifications
-- AI Recommendations
-- Trip Planner
-- CDN
-- Redis
-- Docker
-- AWS
-- Kubernetes
-- Microservices
-
----
-
-# 🏗 Project Structure
-
-```text
-Elaris/
-
-├── client/
-│
-│   ├── public/
-│   │
-│   ├── src/
-│   │   │
-│   │   ├── assets/
-│   │   ├── components/
-│   │   │     ├── Navbar.jsx
-│   │   │     ├── Hero.jsx
-│   │   │     ├── SearchBar.jsx
-│   │   │     ├── Categories.jsx
-│   │   │     ├── CategoryCard.jsx
-│   │   │     ├── FeaturedPlaces.jsx
-│   │   │     ├── PlaceCard.jsx
-│   │   │     ├── WhyElaris.jsx
-│   │   │     └── Footer.jsx
-│   │   │
-│   │   ├── pages/
-│   │   │     ├── Home.jsx
-│   │   │     ├── Login.jsx
-│   │   │     ├── Register.jsx
-│   │   │     ├── Profile.jsx
-│   │   │     └── CreatePost.jsx
-│   │   │
-│   │   ├── hooks/
-│   │   ├── services/
-│   │   ├── context/
-│   │   ├── utils/
-│   │   │
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── index.css
-│   │
-│   ├── package.json
-│   └── vite.config.js
-│
-├── server/
-│   └── src/
-│
-├── docs/
-│   └── images/
-│       └── homepage.png
-│
-├── README.md
-└── .gitignore
+```
+v0.2.0
 ```
 
+Current Status
+
+- ✅ React Project Setup
+- ✅ React Router
+- ✅ Tailwind CSS
+- ✅ Homepage UI
+- ✅ Component-Based Architecture
+- ✅ Authentication UI
+- 🚧 Backend (Next)
+
 ---
 
-# ⚙ Tech Stack
+# 🏗 Tech Stack
 
 ## Frontend
 
 - React
+- TypeScript (Planned)
 - Vite
 - Tailwind CSS
-- React Router
+- React Router DOM
+- Context API
 
-## Backend *(Upcoming)*
+## Backend (Upcoming)
 
 - Node.js
 - Express.js
-
-## Database *(Upcoming)*
-
 - PostgreSQL
 - Prisma ORM
 
-## Authentication *(Upcoming)*
+## Authentication
 
-- JWT
-- bcrypt
+- Context API (Current)
+- JWT Authentication (Upcoming)
 
-## Image Storage *(Upcoming)*
+## Storage
 
-- Cloudinary
+- Cloudinary (Upcoming)
+- AWS S3 (Future)
 
-## Deployment *(Upcoming)*
+## Deployment (Future)
 
 - Docker
 - AWS
@@ -259,72 +84,490 @@ Elaris/
 
 ---
 
-# 📚 Learning Journey
+# 📂 Project Structure
 
-Elaris is intentionally being developed incrementally.
+```
+Elaris/
 
-Instead of introducing every technology from the beginning, each tool is added only when it solves a real engineering problem.
-
-Current learning path:
-
-- ✅ React Components
-- ✅ Routing
-- ✅ Tailwind CSS
-- ✅ Props
-- 🔄 Arrays & `.map()`
-- ⏳ useState
-- ⏳ Forms
-- ⏳ Backend APIs
-- ⏳ Authentication
-- ⏳ Database Design
-- ⏳ Deployment
-- ⏳ System Design
+│
+├── client/
+│
+│   ├── public/
+│   │
+│   ├── src/
+│   │
+│   │   ├── assets/
+│   │   │
+│   │   ├── components/
+│   │   │
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── SearchBar.jsx
+│   │   │   ├── Categories.jsx
+│   │   │   ├── CategoryCard.jsx
+│   │   │   ├── FeaturedPlaces.jsx
+│   │   │   ├── PlaceCard.jsx
+│   │   │   ├── WhyElaris.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   └── ProtectedRoute.jsx
+│   │   │
+│   │   ├── context/
+│   │   │
+│   │   │   └── AuthContext.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Profile.jsx
+│   │   │   └── CreatePost.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   │
+│   └── package.json
+│
+├── server/
+│
+│   └── (Coming Soon)
+│
+└── README.md
+```
 
 ---
 
-# 🎯 Development Philosophy
+# 🌟 Features Implemented
 
-> **Build the simplest solution that works today. Introduce complexity only when there is a real engineering need.**
+## 🏠 Landing Page
 
-This project focuses on understanding **why** technologies are used rather than simply adding them because they are popular.
+A modern responsive homepage built with reusable React components.
+
+Includes
+
+- Responsive Navigation Bar
+- Hero Section
+- Search Bar
+- Categories Section
+- Featured Destinations
+- Why Elaris Section
+- Footer
 
 ---
 
-# 🌱 Long-Term Goal
+## ♻️ Reusable Components
+
+Implemented reusable UI architecture.
+
+Examples
+
+- PlaceCard
+- CategoryCard
+
+Data is rendered dynamically using
+
+```jsx
+.map()
+```
+
+instead of manually creating components.
+
+---
+
+## ⚛ React Concepts Practiced
+
+### Components
+
+UI divided into reusable pieces.
+
+---
+
+### Props
+
+Passing data from parent components to child components.
+
+Example
+
+```jsx
+<PlaceCard
+    title="Ooty"
+    location="Tamil Nadu"
+/>
+```
+
+---
+
+### Arrays
+
+Application data stored in JavaScript arrays instead of hardcoding components.
+
+---
+
+### map()
+
+Rendering UI dynamically from arrays.
+
+Example
+
+```jsx
+places.map(...)
+```
+
+---
+
+### useState()
+
+Implemented React state management.
+
+Practiced using
+
+- Search Input
+- Login Form
+- Register Form
+
+---
+
+### Events
+
+Learned
+
+- onClick
+- onChange
+- onSubmit
+
+---
+
+### Forms
+
+Created controlled forms using React state.
+
+---
+
+### Conditional Rendering
+
+Implemented
+
+```jsx
+{loading ? ... : ...}
+```
+
+and
+
+```jsx
+{error && ...}
+```
+
+---
+
+## 🔐 Authentication UI
+
+Built a complete frontend authentication flow.
+
+Current Features
+
+- Login Page
+- Register Page
+- Password Visibility Toggle
+- Loading State
+- Form Validation
+- Navigation using React Router
+
+(Currently simulated without backend.)
+
+---
+
+## 🌍 Context API
+
+Implemented global authentication state.
+
+Created
+
+```
+AuthContext
+```
+
+Current capabilities
+
+- Login
+- Logout
+- Global User State
+
+---
+
+## 🛡 Protected Routes
+
+Implemented route protection.
+
+Protected Pages
+
+- Profile
+- Create Post
+
+Users are redirected to Login when authentication is unavailable.
+
+---
+
+## 🚀 Routing
+
+Implemented React Router.
+
+Current Routes
+
+```
+/
+
+Home
+
+/login
+
+/register
+
+/profile
+
+/create-post
+```
+
+---
+
+# 🧠 React Concepts Learned
+
+- JSX
+- Components
+- Props
+- Arrays
+- map()
+- useState()
+- Events
+- Forms
+- Controlled Components
+- Conditional Rendering
+- Context API
+- Custom Hooks
+- React Router
+- useNavigate()
+- Protected Routes
+
+---
+
+# 🎓 Development Philosophy
+
+Elaris follows a simple principle.
+
+> Build the simplest solution that works today.
+>
+> Introduce complexity only when there is a real engineering need.
+
+Instead of adding technologies because they are popular, every decision is introduced gradually while solving real software engineering problems.
+
+This project is intended to simulate how production applications evolve over time.
+
+---
+
+# 🛣 Current Development Roadmap
+
+## ✅ Phase 1
+
+Frontend Foundations
+
+- React Setup
+- Tailwind
+- Routing
+- Components
+- Props
+- useState
+- Authentication UI
+
+---
+
+## 🚧 Phase 2 (Next)
+
+Backend Development
+
+- Express.js
+- REST APIs
+- Controllers
+- Routes
+- Middleware
+- Error Handling
+
+---
+
+## 🚧 Phase 3
+
+Database
+
+- PostgreSQL
+- Prisma ORM
+- Relationships
+- Migrations
+
+---
+
+## 🚧 Phase 4
+
+Authentication
+
+- Password Hashing
+- JWT
+- Access Tokens
+- Refresh Tokens
+- Protected APIs
+
+---
+
+## 🚧 Phase 5
+
+Posts
+
+Users will be able to
+
+- Create Posts
+- Upload Images
+- Add Locations
+- Categories
+- Date of Visit
+
+---
+
+## 🚧 Phase 6
+
+Social Features
+
+- Likes
+- Comments
+- Saved Posts
+- User Profiles
+
+---
+
+## 🚧 Phase 7
+
+Production Features
+
+- Cloudinary
+- Redis
+- Background Jobs
+- Docker
+- AWS
+- Nginx
+- Kubernetes
+- Monitoring
+- Logging
+
+---
+
+# 📸 Screenshots
+
+## 🏠 Homepage
+
+> *(Add Homepage Screenshot Here)*
+
+```
+/docs/images/home.png
+```
+
+---
+
+## 🔐 Login
+
+> *(Add Login Screenshot Here)*
+
+```
+/docs/images/login.png
+```
+
+---
+
+## 📝 Register
+
+> *(Add Register Screenshot Here)*
+
+```
+/docs/images/register.png
+```
+
+---
+
+# 🎯 Learning Goals
+
+This project is intentionally being built step by step to gain practical experience in
+
+- React
+- Backend Development
+- REST APIs
+- Authentication
+- PostgreSQL
+- Prisma
+- Cloud Computing
+- Docker
+- DevOps
+- System Design
+- Scalable Architecture
+- Production Engineering
+
+---
+# 📅 Development Log
+
+## v0.2.0
+
+- Built responsive homepage
+- Learned React Components
+- Learned Props
+- Implemented `.map()` rendering
+- Learned `useState()`
+- Built Login UI
+- Built Register UI
+- Implemented Context API
+- Added Protected Routes
+- Added Navigation Flow
+
+---
+
+## Next Milestone
+
+- Express Backend
+- PostgreSQL
+- Prisma
+- JWT Authentication
+
+# 🌱 Long-Term Vision
 
 Elaris is more than a portfolio project.
 
-It is a long-term software engineering journey that will evolve from a simple React application into a production-inspired full-stack platform demonstrating:
+It is being developed as a complete software engineering journey demonstrating
 
 - Clean Architecture
-- Scalable Design
-- Authentication
+- Modern Frontend Development
+- Backend Engineering
+- Authentication Systems
 - Database Design
-- REST APIs
-- Cloud Deployment
-- DevOps
-- CI/CD
-- Distributed Systems
+- Production Best Practices
+- Scalable Full Stack Development
+
+Every new feature is added only after understanding the engineering problem it solves.
 
 ---
 
 # 🤝 Contributing
 
-Suggestions, improvements, and ideas are always welcome.
+Suggestions, improvements and ideas are always welcome.
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Open a Pull Request
+1. Fork the repository.
+2. Create a new branch.
+3. Commit your changes.
+4. Open a Pull Request.
 
 ---
 
 # 📄 License
 
-This project is licensed under the MIT License.
+Licensed under the MIT License.
 
 ---
 
 # 💚 Elaris
 
-> **Explore. Wander. Remember.**
+> **Explore Beyond Maps.**
+>
+> **Create Lasting Memories.**
