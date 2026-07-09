@@ -459,35 +459,17 @@ Production Features
 
 # 📸 Screenshots
 
-## 🏠 Homepage
+<h3>🏠 Homepage</h3>
 
-> *(Add Homepage Screenshot Here)*
+<img src="docs/images/home.png" width="900">
 
-```
-/docs/images/home.png
-```
+<h3>🔐 Login</h3>
 
----
+<img src="docs/images/login.png" width="900">
 
-## 🔐 Login
+<h3>📝 Register</h3>
 
-> *(Add Login Screenshot Here)*
-
-```
-/docs/images/login.png
-```
-
----
-
-## 📝 Register
-
-> *(Add Register Screenshot Here)*
-
-```
-/docs/images/register.png
-```
-
----
+<img src="docs/images/register.png" width="900">
 
 # 🎯 Learning Goals
 
